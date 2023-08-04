@@ -2,12 +2,13 @@ Lords of Games Charter for Rocksmith
 
 # How to start
 
-On Windows, you run the RS Charter.exe\
-On Mac and Linux you have to run the RS Charter.jar file\
-\
+On Windows, you run the RS Charter.exe
+
+On Mac and Linux you have to run the RS Charter.jar file
+
 To use the program you need to have Java 16 or newer installed on your
 system, you can install newest version available from Oracle or any
-other distributor, for example OpenJDK, you don\'t need the same version
+other distributor, for example OpenJDK, you don't need the same version
 of Java.
 
 # File menu
@@ -20,43 +21,25 @@ songs folders.
 
 ![](img/config_menu.png)
 
--   Music folder -- where the window for choosing music for new song
-    will open (default value is user\'s Music folder)
--   Songs folder -- where the new songs will have folders created by
-    default (default value is user\'s Documents folder)
--   Minimal note distance -- distance between end of one note and start
-    of next note (doesn\'t apply to linked notes) (default value is 50
-    ms)
--   Minimal note tail length -- notes shorter than this will be reduced
-    to length 0 (default value is 50 ms)
--   Sound delay -- delay of your audio system (default value is 25 ms)
--   Midi sound delay -- delay of your midi device (default value is 200
-    ms)
--   Marker position -- position of time marker on screen (default value
-    is 300 px)
--   Note width, Note height -- size of notes on edit panel (default
-    values are 15 x 25 px)
--   Chart map size -- multiplier for chart map height (default value is
-    3)
--   Invert strings -- whether strings should be inverted in the editor
-    (default value is false)
--   Left handed -- whether 3D preview should be inverted left to right
-    (default value is false)
--   Show chord ids -- debug option that shows chord numbers in the
-    arrangement, helpful for finding similarly looking chords that are
-    different (default value is false)
--   Show grid -- whether to show grid in the editor or not
--   Create stretched audio\... - If checked, editor will make slowed
-    down versions of the song in the background when the song chart is
-    made, if unchecked they will be created on demand (this takes few
-    minutes though, so it\'s better to leave this checked unless you
-    lack disk space)
--   FPS -- frames per second (default value taken from your screen\'s
-    data)
--   Backup delay -- time between backups in the background (in seconds,
-    10 minutes by default)
--   Graphical theme -- choose editor\'s theme, which will change details
-    on notes
+| Item | Description |
+| ---- | ----------- |
+| Music folder | where the window for choosing music for new song will open (default value is user's Music folder)
+| Songs folder | where the new songs will have folders created by default (default value is user's Documents folder)
+| Minimal note distance | distance between end of one note and start of next note (doesn't apply to linked notes) (default value is 50 ms)
+| Minimal note tail length | notes shorter than this will be reduced to length 0 (default value is 50 ms)
+| Sound delay | delay of your audio system (default value is 25 ms)
+| Midi sound delay | delay of your midi device (default value is 200 ms)
+| Marker position | position of time marker on screen (default value is 300 px)
+| Note width, Note height | size of notes on edit panel (default values are 15 x 25 px)
+| Chart map size | multiplier for chart map height (default value is 3)
+| Invert strings | whether strings should be inverted in the editor (default value is false)
+| Left handed | whether 3D preview should be inverted left to right (default value is false)
+| Show chord ids | debug option that shows chord numbers in the arrangement, helpful for finding similarly looking chords that are different (default value is false)
+| Show grid | whether to show grid in the editor or not
+| Create stretched audio | If checked, editor will make slowed down versions of the song in the background when the song chart is made, if unchecked they will be created on demand (this takes few minutes though, so it's better to leave this checked unless you lack disk space)
+| FPS | frames per second (default value taken from your screen's data)
+| Backup delay | time between backups in the background (in seconds, 10 minutes by default)
+| Graphical theme | choose editor's theme, which will change details on notes
 
 ## Creating a chart
 
@@ -66,7 +49,7 @@ show music file chooser.
 After selecting your desired music file in .ogg or .mp3 format, program
 will ask whether you want to make new folder in your songs directory, or
 use the folder where audio is stored. You can change name of the folder,
-by default the name is \<artist\> - \<title\>, taken from audio file\'s
+by default the name is \<artist\> - \<title\>, taken from audio file's
 metadata.
 
 ![](img/new_chart.png)
@@ -75,13 +58,13 @@ After clicking "Save", chart files will be created.
 
 ## Opening existing chart
 
-If you want to open song that has arrangement already but wasn\'t made
+If you want to open song that has arrangement already but wasn't made
 in this editor, you can create new song based on selected arrangement
 file in File \> Open song from RS arrangement XML.
 
 Program will ask you to select music file and then .xml file with
 arrangement, and will use folder where audio file is as project folder.\
-You should only use this option to make editor\'s project in existing
+You should only use this option to make editor's project in existing
 chart folder.
 
 ## Using separate audio file
@@ -197,7 +180,7 @@ delete a vocal.
 
 Left click selects and moves vocals around.
 
-When selected, vocals\' lengths can be changed with scroll wheel, and
+When selected, vocals' lengths can be changed with scroll wheel, and
 quick edit on the bottom will show current values.
 
 Double click or L can be used to open edit popup. If multiple vocals are
@@ -237,7 +220,7 @@ arrangement is selected.
 
 Notes menu contains options for grid.
 
-You can change size of the grid, unit it\'s based on (note or beat), and
+You can change size of the grid, unit it's based on (note or beat), and
 use , and . to double/halve the grid size.
 
 # Guitar arrangement editing
@@ -354,7 +337,7 @@ statuses of all selected notes:
     clicked
 -   scroll wheel -- change length of selected notes/hand shapes
 -   shift + scroll wheel -- change length faster
--   ctrl + scroll wheel -- change editor\'s zoom
+-   ctrl + scroll wheel -- change editor's zoom
 -   ctrl + shift + scroll wheel -- change zoom faster
 -   left/right -- move position
 -   ctrl + left/right -- move position slower
@@ -444,7 +427,7 @@ For notes and hand shapes there are few parts:
 
 ### 3D Preview
 
-Helpful to see if the chart isn\'t cluttered or if anchors and notes are
+Helpful to see if the chart isn't cluttered or if anchors and notes are
 placed right, you can press F11 to make it full screen.
 
 ![](img/3d_preview.png)
@@ -552,5 +535,5 @@ placed right, you can press F11 to make it full screen.
 -   Vocal -- part of lyrics, usually word or syllable, can be linked to
     next vocal or marked as end of phrase (lyric line)
 
--   Waveform graph -- visually represents song\'s audio, different color
+-   Waveform graph -- visually represents song's audio, different color
     for audio parts with high RMS
